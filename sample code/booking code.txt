@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kern River Expeditions</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="mailto: cdearborn@mrpk.org" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">cdearborn@mrpk.org</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="header-bottom">
+      <div class="container">
+
+
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="download (3).jpeg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+            <center></center>
+            <li>
+              <a href="index.html" class="navbar-link" data-nav-link onclick="goHome()">home</a>
+            </li>
+
+            <li>
+              <a href="aboutkern.html" class="navbar-link" data-nav-link >About Kern Valley</a>
+            </li>
+
+            <li>
+              <a href="activities.html" class="navbar-link" data-nav-link onclick="goactivities()" >Activities</a>
+            </li>
+
+            <li>
+              <a href="booking.html" class="navbar-link" data-nav-link>Booking</a>
+            </li>
+
+            <li>
+              <a href="weather.html" class="navbar-link" data-nav-link>Weather</a>
+            </li>
+
+            <li>
+              <a href="rivercam.html" class="navbar-link" data-nav-link>River Cam</a>
+            </li>
+
+          </ul>
+
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+  <section class="tour-search">
+    <div class="container">
+
+      <form action="" class="tour-search-form">
+
+        <div class="input-wrapper">
+          <label for="activity" class="input-label">Activity</label>
+
+          <input type="text" id="activity" class="input-field" placeholder="Enter Activity">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="destination" class="input-label">Search Destination*</label>
+
+          <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+            class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="people" class="input-label">Pax Number*</label>
+
+          <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="checkin" class="input-label">Checkin Date**</label>
+
+          <input type="date" name="checkin" id="checkin" required class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="checkout" class="input-label">Checkout Date*</label>
+
+          <input type="date" name="checkout" id="checkout" required class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+
+        <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <p>Welcome to the booking page! You may book a trip by entering the information online. The type of activites offered at Kern River Valley are hiking, camping, rafting, and fishing. </p>
